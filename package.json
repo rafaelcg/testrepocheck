@@ -1,0 +1,12 @@
+{
+  "name": "fastify-users-api",
+  "version": "1.0.0",
+  "description": "Simple Fastify server with a mock users API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0"
+  }
+}
