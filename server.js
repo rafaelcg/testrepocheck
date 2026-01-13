@@ -7,6 +7,11 @@ const users = [
   { id: 3, name: 'Charlie Brown', email: 'charlie@example.com' },
 ];
 
+// GET /healthcheck - Health check endpoint
+fastify.get('/healthcheck', async (request, reply) => {
+  return { status: 'ok' };
+});
+
 // GET /users - Get all users
 fastify.get('/users', async (request, reply) => {
   return users;
